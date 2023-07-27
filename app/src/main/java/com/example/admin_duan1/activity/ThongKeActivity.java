@@ -98,7 +98,6 @@ public class ThongKeActivity extends AppCompatActivity {
                 return new ThongKeViewHolder(view);
             }
 
-
         };
         adapter.startListening();
         re_ViewListThongKe.setAdapter(adapter);
